@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <nav>
+        <ul style="justify-content: space-between;">
+            <div>
+                <img src="https://static.vecteezy.com/system/resources/previews/019/879/220/non_2x/simple-food-icon-logo-on-transparent-background-free-png.png" alt="Logo" width="48" height="26">
+            </div>
+            <div style="display: flex;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Our Packages</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div style="margin: 0 16px;">
+        <div style="padding-top: 100px; text-align: center;">
+            <h1>Welcome To Simple Food</h1>
+        </div>
+        <article style="margin-top: 24px;" id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p style="font-size: 12px; margin-top: 8px;">Reach Us to know more</p>
+            <br>
+            <form id="contactForm">
+                <p class="font"> Input your name </p>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <p class="font"> Input your email </p>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <p class="font"> What are you intered in? </p>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" style="width: 268px;padding: 4px 0px;margin-top: 4px; margin-left: 4px;">Send</button>
+            </form>
+        </article>
+        <section id="home" class="banner" style="margin-top: 24px;">
+            <div class="slides">
+                <div class="slide active">
+                    <img src="https://static.vecteezy.com/system/resources/previews/025/269/977/non_2x/empanadas-meat-pie-stuffed-meal-food-snack-on-the-table-copy-space-food-background-rustic-top-view-photo.jpg" alt="Travel Image 1">
+                </div>
+                <div class="slide">
+                    <img src="https://static.vecteezy.com/system/resources/previews/025/348/236/non_2x/stock-of-poached-eggs-flat-lay-professional-foodgraphy-ai-generated-photo.jpg" style="width: fit-content;" alt="Travel Image 2">
+                    <h2>Adventure Awaits</h2>
+                </div>
+                <div class="slide">
+                    <img src="https://static.vecteezy.com/system/resources/previews/019/879/220/non_2x/simple-food-icon-logo-on-transparent-background-free-png.png" alt="Travel Image 3">
+                    <h2>Discover New Places</h2>
+                </div>
+            </div>
+        </section>
+    
+        <section id="packages" class="packages">
+            <h2>Our Packages</h2>
+            <div class="package">
+                <h3>Spaghetti Aglio Olio</h3>
+                <p>Spaghetti, olive oil, garlic, chili flakes</p>
+            </div>
+            <div class="package">
+                <h3>Tuna Melt</h3>
+                <p>Bread, tuna, cheese, mayonnaise</p>
+            </div>
+            <div class="package">
+                <h3>Caesar Salad</h3>
+                <p>Romaine lettuce, croutons, Caesar dressing, Parmesan cheese</p>
+            </div>
+        </section>    
+    </div>
+    <footer>
+        <p>© 2024 SimpleFood. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
